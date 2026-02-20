@@ -31,7 +31,7 @@ const navigation = useNavigation();
     const [resultado, setResultado] = useState<string>('');
 
     //funcion para realizar el calculo de la division
-    const handleMayor = () => {
+    const handleGreater  = () => {
     const { num1, num2 } = formLogin;
 
   
@@ -56,7 +56,7 @@ const navigation = useNavigation();
                 handleChangeValue={handleChangeValue}
                 name='num2'/>
 
-        <ButtonComponent buttonText='   >=   ' onPress={handleMayor} />
+        <ButtonComponent buttonText='   >=   ' onPress={handleGreater } />
 
         
 
